@@ -21,8 +21,56 @@
 </head>
 
 <body class="font-lato">
-   <header>
 
+   <header>
+      <nav class=" md:bg-white lg:bg-[#F85559] lg:max-w-[95%] mx-auto rounded-full my-10">
+         <div class="navbar flex flex-row-reverse lg:flex-row justify-evenly md:justify-evenly lg:justify-between">
+            <div class="lg:flex-1">
+               <div class="dropdown  lg:hidden">
+                  <label tabindex="0" class="btn btn-ghost btn-circle">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                           d="M4 6h16M4 12h16M4 18h7" />
+                     </svg>
+                  </label>
+                  <ul tabindex="0"
+                     class="p-4 dropdown-content mt-3 z-[1]  shadow bg-base-100 rounded-box w-40 absolute -left-10">
+                     <li class=""><a class="">Home</a></li>
+                     <li><a>About us</a></li>
+                     <li><a>Shop</a></li>
+                     <li><a>All Fruits</a></li>
+
+                  </ul>
+               </div>
+               <div class="hidden lg:block">
+                  <ul class="flex text-sm text-white">
+                     <li class="mx-8"><a href="">Home</a></li>
+                     <li class="mr-8"><a href="">About us</a></li>
+                     <li class="mr-8"><a href="">Shop</a></li>
+                     <li class="mr-8"><a href="">All fruits</a></li>
+
+                  </ul>
+               </div>
+            </div>
+            <div class=" lg:flex-1">
+               <img class=" w-12" src="./images/logo.png" alt="">
+               <a
+                  class="btn btn-ghost pl-1 normal-case text-black md:text-black lg:text-white text-xl lg:text-3xl font-bold">Fruit
+                  Burst</a>
+            </div>
+            <div class="hidden md:hidden lg:block">
+               <input type="text" placeholder="Search here" class="input md:w-auto lg:w-64 rounded-full" />
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 absolute right-12 top-[64px]" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                     d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+               </svg>
+            </div>
+         </div>
+         </div>
+         </div>
+      </nav>
    </header>
    <main>
 
